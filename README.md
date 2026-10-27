@@ -4,7 +4,7 @@ Project ini merupakan implementasi **arsitektur Monolith dan Microservices** men
 
 Project dibuat untuk mempelajari perbedaan antara sistem monolith dengan sistem yang terdiri dari beberapa service yang saling berkomunikasi melalui HTTP/REST API.
 
-## 📌 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * **Python**
 * **Flask**
@@ -14,7 +14,7 @@ Project dibuat untuk mempelajari perbedaan antara sistem monolith dengan sistem 
 * **Microservices Architecture**
 * **Monolithic Architecture**
 
-## 📂 Struktur Project
+## Struktur Project
 
 ```text
 paradikma-sistem-untuk-ti/
@@ -27,7 +27,7 @@ paradikma-sistem-untuk-ti/
 └── .gitignore
 ```
 
-## 🏗️ Arsitektur Sistem
+## Arsitektur Sistem
 
 Project ini memiliki tiga aplikasi utama:
 
@@ -86,7 +86,7 @@ Data Buku
 
 Order Service akan memeriksa apakah buku yang diminta tersedia pada Book Service sebelum membuat order.
 
-## ⚙️ Instalasi
+## Instalasi
 
 Pastikan sudah menginstal:
 
@@ -138,7 +138,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🚀 Menjalankan Project
+## Menjalankan Project
 
 Karena project menggunakan beberapa service, jalankan setiap service pada terminal yang berbeda.
 
@@ -166,7 +166,7 @@ python monolith_app.py
 
 Monolith Application menjalankan sistem dalam satu aplikasi.
 
-## 🔗 Komunikasi Antar-Service
+## Komunikasi Antar-Service
 
 Order Service menggunakan library `requests` untuk mengakses Book Service.
 
@@ -190,7 +190,7 @@ Book Service
 Order Service
 ```
 
-## 🧪 Contoh Pengujian
+## Contoh Pengujian
 
 ### Mengecek Data Buku
 
@@ -219,7 +219,7 @@ Body:
 
 Order Service kemudian akan memeriksa `book_id` tersebut ke Book Service.
 
-## 🔄 Perbedaan Arsitektur
+## Perbedaan Arsitektur
 
 ### Monolith
 
@@ -250,7 +250,7 @@ Seluruh fungsi berada dalam satu aplikasi.
 
 Setiap service memiliki tanggung jawab yang lebih spesifik dan dapat berkomunikasi melalui REST API.
 
-## 🎯 Tujuan Pembelajaran
+## Tujuan Pembelajaran
 
 Project ini bertujuan untuk memahami:
 
@@ -263,7 +263,7 @@ Project ini bertujuan untuk memahami:
 7. Perbedaan struktur monolith dan microservices.
 8. Cara menjalankan beberapa service secara terpisah.
 
-## 👨‍💻 Author
+##  Author
 
 **Muhammad Khalil**
 
